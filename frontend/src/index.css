@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 1;
+    color: inherit;
+}
+
+.container{
+    padding-left: 5%;
+    padding-right: 5%;
+}
