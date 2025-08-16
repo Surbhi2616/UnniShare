@@ -1,0 +1,81 @@
+nav{
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    padding: 4px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    height: 80px;
+}
+
+.logo{
+    width: 180px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 12px 10px;
+    border-radius: 15px;
+    width: 97px;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+
+nav ul li:hover{
+    background-color: white;
+  transform: scale(1.05);
+  color: black;
+}
+
+.btn {
+  background-color: transparent; /* removes white box */
+  display: flex;
+  gap: 20px; /* space between buttons */
+}
+
+/* Common button styles */
+.btn button {
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* smooth hover animation */
+}
+
+/* Login button (red) */
+.login-btn {
+  background-color: red;
+  color: white;
+}
+
+/* Sign in button (white) */
+.signin-btn {
+  background-color: white;
+  color: red;
+}
+
+/* Hover effects */
+.login-btn:hover {
+  transform: scale(1.05); /* zoom animation */
+}
+
+.signin-btn:hover {
+  background-color: red;
+  color: white;
+  transform: scale(1.05);
+}
+
+.dark-nav{
+  background: gray;
+  transition: 0.5s;
+}
